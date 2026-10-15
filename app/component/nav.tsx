@@ -106,9 +106,9 @@ export default function Navbar({
       ========================================================= */}
       <div className="w-full h-[34px] bg-[#FFF9F2] text-[#171513] border-b border-[#E7DED3] overflow-hidden text-[11px] sm:text-[12px] flex items-center relative z-[101]">
         <div className="max-w-[1180px] w-[92%] h-full mx-auto flex items-center justify-between tracking-[0.6px]">
-          <span className="hidden md:inline truncate text-[#171513]/85 font-medium">ONE GOLDEN MILE · NETAJI NAGAR, NEW DELHI</span>
+          <span className="hidden md:inline truncate text-[#171513]/85 font-medium">GATE NO. 2, 192-B, CARIAPPA MARG · SAINIK FARMS, NEW DELHI</span>
           <span className="w-full md:w-auto text-center md:text-right shrink-0 truncate text-[#171513]/90">
-            <a href="tel:+919599280444" className="hover:text-[#1C2D20] hover:underline font-medium">9599280444</a> | <a href="tel:+919599280666" className="hover:text-[#1C2D20] hover:underline font-medium">9599280666</a> &nbsp; · &nbsp; OPEN DAILY 12PM — 11PM
+            <a href="tel:09289222302" className="hover:text-[#1C2D20] hover:underline font-medium">09289222302</a> &nbsp; · &nbsp; OPEN DAILY 12PM — 11PM
           </span>
         </div>
       </div>
@@ -188,7 +188,7 @@ export default function Navbar({
               >
                 <div className="bg-white text-[#171513] rounded-xl shadow-[0_20px_40px_rgba(0,0,0,0.18)] border border-[#E7DED3] p-2 flex flex-col gap-1">
                   <a
-                    href="/3_FOOD%20MENU-1_merged.pdf"
+                    href="/food%20menu%20palm.pdf"
                     target="_blank"
                     rel="noopener noreferrer"
                     onClick={() => setDropdownOpen(false)}
@@ -198,7 +198,7 @@ export default function Navbar({
                     <span className="text-[11px] text-[#77716A] uppercase font-semibold tracking-wider group-hover/item:text-[#1C2D20]">PDF ↗</span>
                   </a>
                   <a
-                    href="/drinks.pdf"
+                    href="/Drinks%20Menu%20Palm.pdf"
                     target="_blank"
                     rel="noopener noreferrer"
                     onClick={() => setDropdownOpen(false)}
@@ -394,7 +394,7 @@ export default function Navbar({
                 {mobileMenuExpanded && (
                   <div className="mt-2 mb-2 flex flex-col gap-2 pl-2">
                     <a
-                      href="/3_FOOD%20MENU-1_merged.pdf"
+                      href="/food%20menu%20palm.pdf"
                       target="_blank"
                       rel="noopener noreferrer"
                       onClick={handleClose}
@@ -404,7 +404,7 @@ export default function Navbar({
                       <span className="text-[11px] font-semibold tracking-wider text-[#94D1A4] uppercase">PDF ↗</span>
                     </a>
                     <a
-                      href="/drinks.pdf"
+                      href="/Drinks%20Menu%20Palm.pdf"
                       target="_blank"
                       rel="noopener noreferrer"
                       onClick={handleClose}
@@ -473,12 +473,10 @@ export default function Navbar({
                   <span className="text-white/85">Open Daily: 12:00 PM — 11:00 PM</span>
                 </div>
                 <div className="text-white/60">
-                  One Golden Mile · Netaji Nagar, New Delhi
+                  Gate No. 2, 192-B, Cariappa Marg · Sainik Farm, New Delhi
                 </div>
                 <div className="flex gap-2 text-white/90 font-medium pt-1">
-                  <a href="tel:+919599280444" className="hover:text-[#94D1A4] underline">9599280444</a>
-                  <span>·</span>
-                  <a href="tel:+919599280666" className="hover:text-[#94D1A4] underline">9599280666</a>
+                  <a href="tel:09289222302" className="hover:text-[#94D1A4] underline">09289222302</a>
                 </div>
               </div>
             </div>

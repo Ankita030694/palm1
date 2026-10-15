@@ -18,7 +18,7 @@ export default function CTA() {
       data.get('notes') ? `Special Requests: ${data.get('notes')}` : ''
     ].filter(Boolean).join('\n');
     setReservationSent(true);
-    window.open(`https://wa.me/919599280444?text=${encodeURIComponent(message)}`, '_blank', 'noopener,noreferrer');
+    window.open(`https://wa.me/919289222302?text=${encodeURIComponent(message)}`, '_blank', 'noopener,noreferrer');
   }
 
   return (
@@ -42,10 +42,10 @@ export default function CTA() {
             </p>
             <p className="text-left">
               <span className="font-semibold text-[#171513]">Reservations Line: </span>
-              <a href="tel:9599280444" className="hover:underline text-[#171513]">9599280444</a> | <a href="tel:9599280666" className="hover:underline text-[#171513]">9599280666</a>
+              <a href="tel:09289222302" className="hover:underline text-[#171513]">09289222302</a>
             </p>
             <p className="text-left">
-              <span className="font-semibold text-[#171513]">Location: </span>One Golden Mile, Netaji Nagar, New Delhi
+              <span className="font-semibold text-[#171513]">Location: </span>Gate No. 2, 192-B, Cariappa Marg, Block B, Sainik Farms Colony, Sainik Farm, New Delhi, Delhi 110068
             </p>
           </div>
         </div>

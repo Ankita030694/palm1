@@ -49,8 +49,8 @@ const partyImages = [
 ];
 
 const menuCategories = [
-  { id: 'food' as const, label: 'Food Menu', pdf: '/3_FOOD%20MENU-1_merged.pdf' },
-  { id: 'drinks' as const, label: 'Drink Menu', pdf: '/drinks.pdf' },
+  { id: 'food' as const, label: 'Food Menu', pdf: '/food%20menu%20palm.pdf' },
+  { id: 'drinks' as const, label: 'Drink Menu', pdf: '/Drinks%20Menu%20Palm.pdf' },
   { id: 'party' as const, label: 'Party Menu', pdf: '/party.pdf' },
 ];
 
@@ -70,7 +70,7 @@ const menuItemsData: Record<string, Array<{ num: string; name: string; price: st
     { num: '01', name: 'Botanical Palm Spritz', price: '₹750', desc: 'Garden botanicals, citrus tonic & sparkling prosecco' },
     { num: '02', name: 'Clarified Milk Punch', price: '₹850', desc: 'Spiced rum, pineapple, citrus & clarified whey' },
     { num: '03', name: 'Smoked Mezcalita', price: '₹850', desc: 'Artisanal mezcal, fresh lime & smoked chilli salt rim' },
-    { num: '04', name: 'The Golden Mile Highball', price: '₹800', desc: 'Japanese whisky, soda & charred orange peel' },
+    { num: '04', name: 'The Palm Reserve Highball', price: '₹800', desc: 'Japanese whisky, soda & charred orange peel' },
     { num: '05', name: 'Saffron & Cardamom Sour', price: '₹850', desc: 'Bourbon, saffron cordial, lemon & silky foam' },
     { num: '06', name: 'Roasted Espresso Martini', price: '₹750', desc: 'Cold brew espresso, vodka & Madagascar vanilla' },
     { num: '07', name: 'Artisanal Gin & Tonic', price: '₹800', desc: 'House-infused botanicals, elderflower & fresh thyme' },
@@ -356,7 +356,7 @@ export default function Home() {
                   Signature cocktails, fine spirits and refreshments curated for every toast.
                 </p>
                 <a
-                  href="/drinks.pdf"
+                  href="/Drinks%20Menu%20Palm.pdf"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-block text-[14px] border-b border-white pb-1 mt-4 hover:text-[#A2C4AB] hover:border-[#A2C4AB] transition-colors"
@@ -381,7 +381,7 @@ export default function Home() {
                   Thoughtfully crafted plates, bold culinary flavours, and seasonal ingredients.
                 </p>
                 <a
-                  href="/3_FOOD%20MENU-1_merged.pdf"
+                  href="/food%20menu%20palm.pdf"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-block text-[14px] border-b border-white pb-1 mt-4 hover:text-[#A2C4AB] hover:border-[#A2C4AB] transition-colors"
@@ -694,13 +694,13 @@ export default function Home() {
         <div className="container max-w-[1180px] w-[92%] mx-auto location-grid grid grid-cols-1 lg:grid-cols-[1.2fr_0.8fr] min-h-[500px] bg-[#1C2D20] text-white shadow-lg overflow-hidden">
           <div className="location-image relative min-h-[350px] lg:min-h-[500px] p-0 overflow-hidden">
             <iframe
-              title="Google Map for The Palm, One Golden Mile, Netaji Nagar, New Delhi"
+              title="Google Map for The Palm, Gate No. 2, 192-B, Cariappa Marg, Sainik Farms, New Delhi"
               width="100%"
               height="100%"
               style={{ border: 0, position: 'absolute', top: 0, left: 0 }}
               loading="lazy"
               allowFullScreen
-              src="https://www.google.com/maps?q=The+Palm,+One+Golden+Mile,+Block+A,+Netaji+Nagar,+New+Delhi,+Delhi+110066&output=embed"
+              src="https://www.google.com/maps?q=The+Palm,+Gate+No.+2,+192-B,+Cariappa+Marg,+Block+B,+Sainik+Farms+Colony,+Sainik+Farm,+New+Delhi,+Delhi+110068&output=embed"
             ></iframe>
           </div>
 
@@ -713,11 +713,11 @@ export default function Home() {
               <em className="text-[#FFFFFF] not-italic">is waiting.</em>
             </h2>
             <p className="text-white/85 text-[16px] leading-[1.9] mt-6">
-              The Palm, One Golden Mile<br />
-              Block A, Netaji Nagar<br />
-              New Delhi, Delhi 110066
+              The Palm, Gate No. 2, 192-B, Cariappa Marg<br />
+              Block B, Sainik Farms Colony, Sainik Farm<br />
+              New Delhi, Delhi 110068
               <br /><br />
-              <a href="tel:+919599280444" className="hover:underline">9599280444</a> | <a href="tel:+919599280666" className="hover:underline">9599280666</a><br />
+              <a href="tel:09289222302" className="hover:underline">09289222302</a><br />
               thepalmdelhi@gmail.com
               <br /><br />
               Open daily<br />
@@ -726,7 +726,7 @@ export default function Home() {
 
             <div className="location-buttons flex flex-wrap gap-4 mt-8">
               <a
-                href="https://www.google.com/maps/dir//The+Palm,+One+Golden+Mile,+Block+A,+Netaji+Nagar,+New+Delhi,+Delhi,+110066/@26.6882664,77.8938889,15z/data=!4m8!4m7!1m0!1m5!1m1!1s0x390d1dab1258837f:0xc27d1fd707643722!2m2!1d77.1858787!2d28.570659?entry=ttu"
+                href="https://www.google.com/maps/dir//The+Palm,+Gate+No.+2,+192-B,+Cariappa+Marg,+Block+B,+Sainik+Farms+Colony,+Sainik+Farm,+New+Delhi,+Delhi+110068/@28.5273522,77.2089851,11z/data=!3m1!4b1!4m8!4m7!1m0!1m5!1m1!1s0x390ce194972bceb7:0x8186b4cf3f3382ea!2m2!1d77.2152881!2d28.5118438?hl=en-us&entry=ttu&g_ep=EgoyMDI2MTAxMi4wIKXMDSoASAFQAw%3D%3D"
                 target="_blank"
                 rel="noopener noreferrer"
                 style={{ backgroundColor: '#ffffff', color: '#171513' }}
@@ -775,17 +775,10 @@ export default function Home() {
               </span>
               <div className="text-[17px] sm:text-[19px] font-semibold text-[#171513] tracking-tight flex flex-wrap items-center gap-x-2">
                 <a
-                  href="tel:+919599280444"
+                  href="tel:09289222302"
                   className="hover:text-[#1C2D20] transition-colors whitespace-nowrap"
                 >
-                  9599280444
-                </a>
-                <span className="text-[#77716A] font-normal">|</span>
-                <a
-                  href="tel:+919599280666"
-                  className="hover:text-[#1C2D20] transition-colors whitespace-nowrap"
-                >
-                  9599280666
+                  09289222302
                 </a>
               </div>
             </div>
@@ -795,12 +788,12 @@ export default function Home() {
                 ADDRESS
               </span>
               <a
-                href="https://www.google.com/maps/dir//The+Palm,+One+Golden+Mile,+Block+A,+Netaji+Nagar,+New+Delhi,+Delhi,+110066/@26.6882664,77.8938889,15z/data=!4m8!4m7!1m0!1m5!1m1!1s0x390d1dab1258837f:0xc27d1fd707643722!2m2!1d77.1858787!2d28.570659?entry=ttu"
+                href="https://www.google.com/maps/dir//The+Palm,+Gate+No.+2,+192-B,+Cariappa+Marg,+Block+B,+Sainik+Farms+Colony,+Sainik+Farm,+New+Delhi,+Delhi+110068/@28.5273522,77.2089851,11z/data=!3m1!4b1!4m8!4m7!1m0!1m5!1m1!1s0x390ce194972bceb7:0x8186b4cf3f3382ea!2m2!1d77.2152881!2d28.5118438?hl=en-us&entry=ttu&g_ep=EgoyMDI2MTAxMi4wIKXMDSoASAFQAw%3D%3D"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-[14px] sm:text-[15px] font-medium text-[#171513] leading-[1.4] hover:text-[#1C2D20] transition-colors block max-w-[340px]"
               >
-                The Palm, One Golden Mile, Block A, Netaji Nagar, New Delhi 110066
+                Gate No. 2, 192-B, Cariappa Marg, Block B, Sainik Farms Colony, Sainik Farm, New Delhi, Delhi 110068
               </a>
             </div>
 
