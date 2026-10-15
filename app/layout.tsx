@@ -2,8 +2,8 @@ import type { Metadata, Viewport } from 'next';
 import './globals.css';
 
 export const metadata: Metadata = {
-  title: 'The First Floor | Rooftop Dining & Restaurant in New Delhi',
-  description: 'Discover The First Floor, a rooftop dining destination in New Delhi for thoughtfully crafted dishes, refreshing drinks, warm hospitality, and memorable dining experiences.',
+  title: 'The Palm | Rooftop Dining & Restaurant in New Delhi',
+  description: 'Discover The Palm, a premier rooftop dining destination in New Delhi for thoughtfully crafted dishes, refreshing drinks, warm hospitality, and memorable dining experiences.',
   robots: {
     index: true,
     follow: true,

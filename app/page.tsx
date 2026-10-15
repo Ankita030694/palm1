@@ -5,55 +5,47 @@ import CircularText from './component/CircularText';
 import CTA from './component/cta';
 
 const galleryImages = [
-  "/1/Copy of DSC01533.jpg",
-  "/1/Copy of DSC01552.jpg",
-  "/1/Copy of DSC01693.jpg",
-  "/1/Copy of DSC01775.jpg",
-  "/1/Copy of DSC01850.jpg",
-  "/1/Copy of DSC01976.jpg",
-  "/2/Copy of RM408231.JPG",
-  "/2/Copy of RM408240.JPG",
-  "/2/Copy of RM408251.JPG",
-  "/2/Copy of RM408255.JPG",
-  "/2/Copy of RM408269.JPG",
-  "/2/Copy of RM408276.JPG",
-  "/2/Copy of RM408285.JPG",
+  "/photos/DSC04898.JPG",
+  "/photos/DSC00076.JPG",
+  "/photos/DSC09964.JPG",
+  "/photos/DSC00103.JPG",
+  "/photos/DSC04826.JPG",
+  "/photos/DSC00088.JPG",
+  "/photos/DSC09993.JPG",
+  "/photos/DSC04897.JPG",
+  "/photos/DSC00085.JPG",
+  "/photos/DSC00062.JPG",
+  "/photos/DSC04832.JPG",
+  "/photos/DSC09996.JPG",
 ];
 
 const foodImages = [
-  "/foodfilter/Copy of RM408240.JPG",
-  "/foodfilter/Copy of RM408264.JPG",
-  "/foodfilter/Copy of RM408276.JPG",
-  "/foodfilter/Copy of RM408285.JPG",
-  "/foodfilter/Copy of RM408300.JPG",
-  "/foodfilter/Copy of RM408316.JPG",
-  "/foodfilter/Copy of RM408332.JPG",
-  "/foodfilter/Copy of RM408338.JPG",
-  "/foodfilter/Copy of RM408352.JPG",
-  "/foodfilter/Copy of RM408368.JPG",
+  "/photos/DSC09964.JPG",
+  "/photos/DSC09993.JPG",
+  "/photos/DSC00076.JPG",
+  "/photos/DSC00062.JPG",
+  "/photos/DSC09996.JPG",
+  "/photos/DSC00085.JPG",
+  "/photos/DSC00063.JPG",
 ];
 
 const drinksImages = [
-  "/drinksfilter/JASP0016.jpg",
-  "/drinksfilter/JASP0028.jpg",
-  "/drinksfilter/JASP0048.jpg",
-  "/drinksfilter/JASP0082.jpg",
-  "/drinksfilter/JASP0110.jpg",
-  "/drinksfilter/JASP0133.jpg",
-  "/drinksfilter/JASP0146.jpg",
-  "/drinksfilter/JASP0327.jpg",
+  "/photos/DSC00103.JPG",
+  "/photos/DSC00088.JPG",
+  "/photos/DSC00116.JPG",
+  "/photos/DSC00089.JPG",
+  "/photos/DSC00076.JPG",
+  "/photos/DSC00062.JPG",
 ];
 
 const partyImages = [
-  "/package.JPG",
-  "/food.JPG",
-  "/drink.jpg",
-  "/foodfilter/Copy of RM408276.JPG",
-  "/drinksfilter/JASP0028.jpg",
-  "/aboutbig.JPG",
-  "/photos/DSC00062.JPG",
-  "/foodfilter/Copy of RM408300.JPG",
-  "/drinksfilter/JASP0133.jpg",
+  "/photos/DSC04898.JPG",
+  "/photos/DSC04897.JPG",
+  "/photos/DSC00076.JPG",
+  "/photos/DSC00085.JPG",
+  "/photos/DSC04826.JPG",
+  "/photos/DSC04832.JPG",
+  "/photos/DSC09964.JPG",
 ];
 
 const menuCategories = [
@@ -64,15 +56,15 @@ const menuCategories = [
 
 const menuItemsData: Record<string, Array<{ num: string; name: string; price: string; desc: string }>> = {
   food: [
-    { num: '01', name: 'Palm Burrata', price: '₹1,050', desc: 'Heirloom tomato, basil oil & sourdough' },
-    { num: '02', name: 'Slow-Cooked Lamb Chops', price: '₹1,850', desc: 'Rosemary jus, asparagus & garlic mash' },
-    { num: '03', name: 'Charred Market Fish', price: '₹1,450', desc: 'Seasonal greens, citrus & brown butter' },
-    { num: '04', name: 'Harissa Roasted Chicken', price: '₹1,150', desc: 'Labneh, smoked chilli & summer herbs' },
-    { num: '05', name: 'Seasonal Handmade Pasta', price: '₹1,250', desc: 'Fresh herbs, parmesan & seasonal vegetables' },
-    { num: '06', name: 'The First Floor Grill', price: '₹1,650', desc: 'Charred vegetables, herbs & signature glaze' },
-    { num: '07', name: 'Artisan Baos & Spreads', price: '₹850', desc: 'Steamed brioche baos with trio of house dips' },
-    { num: '08', name: 'Spiced Cocktail Prawns', price: '₹1,350', desc: 'Togarashi spice, yuzu aioli & garden cress' },
-    { num: '09', name: 'Palm Signature Dessert', price: '₹650', desc: 'Seasonal fruit, cream & toasted crumble' },
+    { num: '01', name: 'Cold Avocado Pizza', price: '₹525', desc: 'Crisp tortilla, sundried tomatoes, scamorza cheese, pesto & aged balsamic' },
+    { num: '02', name: 'Charcoal Dahi Kebab', price: '₹495', desc: 'Water chestnut stuffed, raw mango chutney' },
+    { num: '03', name: 'Truffle Tapenade Fries', price: '₹495', desc: 'Black olive tapenade, parmesan cheese & house dip' },
+    { num: '04', name: 'Spanish Skillet Prawns', price: '₹750', desc: 'Habanero butter, prosecco glaze & garlic bread' },
+    { num: '05', name: 'Keema Brioche Pao', price: '₹625', desc: 'Tawa mutton keema served with buttery mini brioche pao' },
+    { num: '06', name: 'Thai Basil Fish', price: '₹675', desc: 'Wok tossed sweet spicy fresh fish with lime leaf' },
+    { num: '07', name: 'Aztec Nachos', price: '₹525', desc: 'Charred tomato salsa, sour cream & baked beans' },
+    { num: '08', name: 'The Palm Signature Dumplings', price: '₹595', desc: 'Delicate spinach dumplings in rich aromatic yellow curry' },
+    { num: '09', name: 'Palm Signature Dessert', price: '₹450', desc: 'Seasonal fruit, cream & toasted crumble' },
   ],
   drinks: [
     { num: '01', name: 'Botanical Palm Spritz', price: '₹750', desc: 'Garden botanicals, citrus tonic & sparkling prosecco' },
@@ -87,7 +79,7 @@ const menuItemsData: Record<string, Array<{ num: string; name: string; price: st
   ],
   party: [
     { num: '01', name: 'Rooftop Soirée Package', price: '₹2,500 / guest', desc: 'Free-flowing cocktails, passed canapés & rooftop views' },
-    { num: '02', name: 'The First Floor Feast', price: '₹2,200 / guest', desc: 'Curated multi-course family feast with drink pairing' },
+    { num: '02', name: 'The Palm Grand Feast', price: '₹2,200 / guest', desc: 'Curated multi-course family feast with drink pairing' },
     { num: '03', name: 'Sunset Cocktails & Grazing', price: '₹1,800 / guest', desc: 'Signature cocktail bar, artisanal grazing tables & DJ setup' },
     { num: '04', name: "Celebration Chef's Table", price: '₹2,800 / guest', desc: 'Private multi-course tasting menu tailored for milestones' },
     { num: '05', name: 'Corporate & Private Dining', price: 'Custom Quote', desc: 'Bespoke culinary experience with private terrace access' },
@@ -130,12 +122,12 @@ export default function Home() {
         <div
           className="hero-image absolute inset-0 w-full h-full"
           style={{
-            backgroundImage: 'url("/hero.jpg")',
+            backgroundImage: 'url("/photos/DSC04898.JPG")',
             backgroundSize: 'cover',
             backgroundPosition: 'center',
           }}
         >
-          <img src="/hero.jpg" alt="The First Floor Restaurant" className="w-full h-full object-cover" />
+          <img src="/photos/DSC04898.JPG" alt="The Palm Restaurant Courtyard" className="w-full h-full object-cover" />
         </div>
 
         {/* Hero Gradient Overlay */}
@@ -143,7 +135,7 @@ export default function Home() {
           
         <div className="hero-content relative z-[2] max-w-[1180px] w-[92%] mx-auto pt-[90px] max-lg:pt-[70px]">
           <span className="eyebrow text-[#A2C4AB] text-[13px] font-medium tracking-[2px] uppercase block">
-            WELCOME TO THE FIRST FLOOR · NEW DELHI
+            WELCOME TO THE PALM · NEW DELHI
           </span>
 
           <h1 className="font-serif !text-[clamp(42px,5.5vw,82px)] font-normal leading-[0.92] tracking-[-2px] lg:tracking-[-3px] mt-4 max-w-[680px]">
@@ -152,7 +144,7 @@ export default function Home() {
           </h1>
 
           <p className="hero-text text-white/75 !text-[17px] max-lg:!text-[15px] leading-[1.8] max-w-[480px] mt-6 max-lg:mt-5">
-            The First Floor brings people together over thoughtfully crafted dishes, refreshing drinks, and rooftop evenings that make every moment worth savouring.
+            The Palm brings people together over thoughtfully crafted dishes, refreshing drinks, and rooftop evenings that make every moment worth savouring.
           </p>
 
           <div className="hero-buttons flex items-center gap-[25px] mt-[35px] max-lg:flex-col max-lg:items-start max-lg:gap-4">
@@ -250,13 +242,13 @@ export default function Home() {
         <div className="container max-w-8xl 2xl:max-w-8xl w-[94%] mx-auto about-grid grid grid-cols-1 lg:grid-cols-2 gap-[60px] lg:gap-[100px] items-center">
           <div className="about-images relative pr-0 lg:pr-[60px]">
             <img
-              src="/aboutbig.JPG"
+              src="/photos/DSC04826.JPG"
               alt="Palm dining"
               loading="lazy"
-              className="about-main w-full lg:w-[90%] h-[420px] lg:h-[530px] object-cover object-[36%_center] lg:ml-2"
+              className="about-main w-full lg:w-[90%] h-[420px] lg:h-[530px] object-cover object-center lg:ml-2"
             />
             <img
-              src="/aboutsmall.JPG"
+              src="/photos/DSC09993.JPG"
               alt="Palm food"
               loading="lazy"
               className="about-small absolute right-0 bottom-0 w-[135px] lg:w-[190px] h-[155px] lg:h-[210px] object-cover border-[6px] lg:border-[9px] border-[#FFF9F2]"
@@ -283,7 +275,7 @@ export default function Home() {
               <em className="text-[#1C2D20] not-italic">Stay for the feeling.</em>
             </h2>
             <p className="section-description text-[#77716A] !text-[16px] max-lg:!text-[15px] leading-[1.8] mt-5">
-              At The First Floor, every meal is an invitation to slow down and savour the moment. From relaxed lunches to intimate dinners, we bring people together over food worth sharing and conversations worth having.
+              At The Palm, every meal is an invitation to slow down and savour the moment. From relaxed lunches to intimate dinners, we bring people together over food worth sharing and conversations worth having.
             </p>
             <p className="section-description text-[#77716A] !text-[16px] max-lg:!text-[15px] leading-[1.8] mt-4">
               Our kitchen brings together bold flavours, thoughtfully prepared dishes, and ingredients chosen with care. Add a welcoming ambience, rooftop charm, and a little more time with your favourite people.
@@ -333,7 +325,7 @@ export default function Home() {
           <div className="experience-head flex flex-col lg:flex-row justify-between lg:items-end mb-[55px] max-lg:mb-10 gap-8">
             <div>
               <span className="eyebrow text-[#A2C4AB] text-[13px] max-lg:text-[11px] font-medium tracking-[2px] uppercase block">
-                THE FIRST FLOOR EXPERIENCE
+                THE PALM EXPERIENCE
               </span>
               <h2 className="section-title font-serif font-normal !text-[clamp(38px,4.2vw,54px)] leading-[1.02] tracking-[-1.5px] mt-4">
                 More than<br />
@@ -342,7 +334,7 @@ export default function Home() {
             </div>
             <div className="max-w-[480px] space-y-3">
               <p className="section-description text-white/70 !text-[16px] max-lg:!text-[15px] leading-[1.8]">
-                From laid-back lunches to rooftop dinners and late-night celebrations, The First Floor brings people together over good food, warm hospitality, and moments worth remembering.
+                From laid-back lunches to rooftop dinners and late-night celebrations, The Palm brings people together over good food, warm hospitality, and moments worth remembering.
               </p>
               
             </div>
@@ -351,7 +343,7 @@ export default function Home() {
           <div className="experience-grid !grid grid-cols-1 md:!grid-cols-3 gap-4 lg:gap-5">
             <article className="experience-card relative h-[480px] max-lg:h-[400px] overflow-hidden group">
               <img
-                src="/drink.jpg"
+                src="/photos/DSC00103.JPG"
                 alt="Drinks"
                 loading="lazy"
                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
@@ -376,7 +368,7 @@ export default function Home() {
 
             <article className="experience-card relative h-[480px] max-lg:h-[400px] overflow-hidden group">
               <img
-                src="/food.JPG"
+                src="/photos/DSC09964.JPG"
                 alt="Food"
                 loading="lazy"
                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
@@ -401,7 +393,7 @@ export default function Home() {
 
             <article className="experience-card relative h-[480px] max-lg:h-[400px] overflow-hidden group">
               <img
-                src="/package.JPG"
+                src="/photos/DSC04898.JPG"
                 alt="Packages"
                 loading="lazy"
                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
@@ -572,7 +564,7 @@ export default function Home() {
             {/* Event 1 */}
             <div className="event-row flex items-center justify-between gap-6 py-8 border-b border-[#E7DED3]">
               <div className="event-info max-w-[580px]">
-                <h3 className="font-serif text-[28px] sm:text-[32px] font-normal leading-tight text-[#171513]">Friday at The First Floor</h3>
+                <h3 className="font-serif text-[28px] sm:text-[32px] font-normal leading-tight text-[#171513]">Friday at The Palm</h3>
                 <p className="text-[#77716A] text-[15px] sm:text-[16px] leading-[1.6] mt-2">An evening of delicious food, crafted cocktails and great company.</p>
               </div>
               <a href="#reservation" onClick={closeMenu} className="event-book text-[15px] font-medium border-b border-current pb-1 flex-shrink-0 hover:text-[#1C2D20] transition-colors">
@@ -583,7 +575,7 @@ export default function Home() {
             {/* Event 2 */}
             <div className="event-row flex items-center justify-between gap-6 py-8 border-b border-[#E7DED3]">
               <div className="event-info max-w-[580px]">
-                <h3 className="font-serif text-[28px] sm:text-[32px] font-normal leading-tight text-[#171513]">The First Floor Table</h3>
+                <h3 className="font-serif text-[28px] sm:text-[32px] font-normal leading-tight text-[#171513]">The Palm Table</h3>
                 <p className="text-[#77716A] text-[15px] sm:text-[16px] leading-[1.6] mt-2">A special sharing menu made for good food and even better company.</p>
               </div>
               <a href="#reservation" onClick={closeMenu} className="event-book text-[15px] font-medium border-b border-current pb-1 flex-shrink-0 hover:text-[#1C2D20] transition-colors">
@@ -614,7 +606,7 @@ export default function Home() {
           <div className="flex flex-col sm:flex-row justify-between sm:items-end gap-6 mb-16 md:mb-20">
             <div>
               <span className="eyebrow text-[#1C2D20] text-[13px] font-bold tracking-[2px] uppercase block">
-                THE FIRST FLOOR FEELING
+                THE PALM FEELING
               </span>
               <h2 className="section-title font-serif font-normal text-[clamp(46px,5vw,76px)] leading-[0.98] tracking-[-2px] mt-3">
                 Made for<br />
@@ -702,13 +694,13 @@ export default function Home() {
         <div className="container max-w-[1180px] w-[92%] mx-auto location-grid grid grid-cols-1 lg:grid-cols-[1.2fr_0.8fr] min-h-[500px] bg-[#1C2D20] text-white shadow-lg overflow-hidden">
           <div className="location-image relative min-h-[350px] lg:min-h-[500px] p-0 overflow-hidden">
             <iframe
-              title="Google Map for The First Floor, One Golden Mile, Netaji Nagar, New Delhi"
+              title="Google Map for The Palm, One Golden Mile, Netaji Nagar, New Delhi"
               width="100%"
               height="100%"
               style={{ border: 0, position: 'absolute', top: 0, left: 0 }}
               loading="lazy"
               allowFullScreen
-              src="https://www.google.com/maps?q=The+First+Floor,+One+Golden+Mile,+Block+A,+Netaji+Nagar,+New+Delhi,+Delhi+110066&output=embed"
+              src="https://www.google.com/maps?q=The+Palm,+One+Golden+Mile,+Block+A,+Netaji+Nagar,+New+Delhi,+Delhi+110066&output=embed"
             ></iframe>
           </div>
 
@@ -721,12 +713,12 @@ export default function Home() {
               <em className="text-[#FFFFFF] not-italic">is waiting.</em>
             </h2>
             <p className="text-white/85 text-[16px] leading-[1.9] mt-6">
-              The First Floor, One Golden Mile<br />
+              The Palm, One Golden Mile<br />
               Block A, Netaji Nagar<br />
               New Delhi, Delhi 110066
               <br /><br />
               <a href="tel:+919599280444" className="hover:underline">9599280444</a> | <a href="tel:+919599280666" className="hover:underline">9599280666</a><br />
-              thefirstfloordelhi@gmail.com
+              thepalmdelhi@gmail.com
               <br /><br />
               Open daily<br />
               12:00 PM — 11:00 PM
@@ -734,7 +726,7 @@ export default function Home() {
 
             <div className="location-buttons flex flex-wrap gap-4 mt-8">
               <a
-                href="https://www.google.com/maps/dir//The+First+Floor,+One+Golden+Mile,+Block+A,+Netaji+Nagar,+New+Delhi,+Delhi,+110066/@26.6882664,77.8938889,15z/data=!4m8!4m7!1m0!1m5!1m1!1s0x390d1dab1258837f:0xc27d1fd707643722!2m2!1d77.1858787!2d28.570659?entry=ttu"
+                href="https://www.google.com/maps/dir//The+Palm,+One+Golden+Mile,+Block+A,+Netaji+Nagar,+New+Delhi,+Delhi,+110066/@26.6882664,77.8938889,15z/data=!4m8!4m7!1m0!1m5!1m1!1s0x390d1dab1258837f:0xc27d1fd707643722!2m2!1d77.1858787!2d28.570659?entry=ttu"
                 target="_blank"
                 rel="noopener noreferrer"
                 style={{ backgroundColor: '#ffffff', color: '#171513' }}
@@ -803,12 +795,12 @@ export default function Home() {
                 ADDRESS
               </span>
               <a
-                href="https://www.google.com/maps/dir//The+First+Floor,+One+Golden+Mile,+Block+A,+Netaji+Nagar,+New+Delhi,+Delhi,+110066/@26.6882664,77.8938889,15z/data=!4m8!4m7!1m0!1m5!1m1!1s0x390d1dab1258837f:0xc27d1fd707643722!2m2!1d77.1858787!2d28.570659?entry=ttu"
+                href="https://www.google.com/maps/dir//The+Palm,+One+Golden+Mile,+Block+A,+Netaji+Nagar,+New+Delhi,+Delhi,+110066/@26.6882664,77.8938889,15z/data=!4m8!4m7!1m0!1m5!1m1!1s0x390d1dab1258837f:0xc27d1fd707643722!2m2!1d77.1858787!2d28.570659?entry=ttu"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-[14px] sm:text-[15px] font-medium text-[#171513] leading-[1.4] hover:text-[#1C2D20] transition-colors block max-w-[340px]"
               >
-                The First Floor, One Golden Mile, Block A, Netaji Nagar, New Delhi 110066
+                The Palm, One Golden Mile, Block A, Netaji Nagar, New Delhi 110066
               </a>
             </div>
 
@@ -836,10 +828,10 @@ export default function Home() {
                 EMAIL
               </span>
               <a
-                href="mailto:thefirstfloordelhi@gmail.com"
+                href="mailto:thepalmdelhi@gmail.com"
                 className="text-[14px] sm:text-[15px] font-medium text-[#171513] hover:text-[#1C2D20] transition-colors"
               >
-                thefirstfloordelhi@gmail.com
+                thepalmdelhi@gmail.com
               </a>
             </div>
 
