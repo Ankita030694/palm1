@@ -762,8 +762,8 @@ export default function Home() {
                 className="inline-block"
               >
                 <img
-                  src="/logoblack.svg"
-                  alt="Palm Restaurant"
+                  src="/logo-dark.png"
+                  alt="The Palm Restaurant"
                   className="w-[140px] max-sm:w-[120px] h-auto block object-contain"
                 />
               </a>

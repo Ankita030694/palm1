@@ -128,9 +128,9 @@ export default function Navbar({
           {/* Logo */}
           <a href="#home" className="w-[130px] sm:w-[150px] h-auto block shrink-0">
             <img
-              src={scrolled ? '/logoblack.svg' : '/logowhite.png'}
-              alt="Palm Restaurant"
-              className="block w-full h-auto object-contain"
+              src={scrolled ? '/logo-dark.png' : '/logo-light.png'}
+              alt="The Palm Restaurant"
+              className="block w-full h-auto max-h-[64px] object-contain"
               onError={(e: any) => {
                 e.target.style.display = 'none';
                 if (e.target.nextSibling) e.target.nextSibling.style.display = 'block';
@@ -319,11 +319,11 @@ export default function Navbar({
         >
           {/* Top Bar inside Drawer */}
           <div className="h-[74px] px-6 flex items-center justify-between border-b border-white/10 shrink-0 bg-[#171513]">
-            <a href="#home" onClick={handleClose} className="w-[125px] block">
+            <a href="#home" onClick={handleClose} className="w-[110px] sm:w-[125px] block">
               <img
-                src="/logowhite.png"
-                alt="Palm Restaurant"
-                className="w-full h-auto object-contain"
+                src="/logo-light.png"
+                alt="The Palm Restaurant"
+                className="w-full h-auto max-h-[56px] object-contain"
                 onError={(e: any) => {
                   e.target.style.display = 'none';
                   if (e.target.nextSibling) e.target.nextSibling.style.display = 'block';
